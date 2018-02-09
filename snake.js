@@ -129,5 +129,55 @@ $(document).ready(function() {
 		paint_cell(snake.x, snake.y);
 
 	});
+	$("#left").on("click",function(e){
+			snake.x -= 1;
+			d = "LEFT";
+
+		check_food();
+		blank();
+		color = "grey";
+		paint_cell(food.x, food.y);
+		color = "green";
+		paint_cell(snake.x, snake.y);
+
+	});
+	$("#up").on("click",function(e){
+		snake.y -= 1;
+		d = "UP";
+	check_food();
+	blank();
+	color = "grey";
+	paint_cell(food.x, food.y);
+	color = "green";
+	paint_cell(snake.x, snake.y);
+
+	});
+
+	$("#right").on("click",function(e){
+		snake.x += 1;
+		d = "RIGHT";
+
+	check_food();
+	blank();
+	color = "grey";
+	paint_cell(food.x, food.y);
+	color = "green";
+	paint_cell(snake.x, snake.y);
+
+	});
+
+	$("#down").on("click",function(e){
+		snake.y += 1;
+		d = "DOWN";
+
+	check_food();
+	blank();
+	color = "grey";
+	paint_cell(food.x, food.y);
+	color = "green";
+	paint_cell(snake.x, snake.y);
+
+	});
+
 
 });
