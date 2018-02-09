@@ -61,7 +61,7 @@ width: 100%;
 #left::before{
 	padding-left: 0px;
 	content: '\21e6';
-	font-size: 90px;
+	font-size: 60px;
     font-weight: bold;
 }
 #right{
@@ -73,7 +73,7 @@ width: 100%;
 #right::before{
 	padding-left: 0px;
 	content: "\21e8";
-	font-size: 90px;
+	font-size: 60px;
     font-weight: bold;
 }
 #up{
@@ -85,7 +85,7 @@ width: 100%;
 #up::before{
 	padding-left: 0px;
 	content: "\21e7";
-	font-size: 90px;
+	font-size: 60px;
     font-weight: bold;
 }
 #down{
@@ -97,6 +97,6 @@ width: 100%;
 #down::before{
 	padding-left: 0px;
 	content: "\21e9";
-	font-size: 90px;
+	font-size: 60px;
     font-weight: bold;
 }
