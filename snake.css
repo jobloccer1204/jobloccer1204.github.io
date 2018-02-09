@@ -46,7 +46,9 @@ span {
 }
 #controls{
 	display: block;
-	margin: 0 auto;
+	position: absolute;
+bottom: 0;
+width: 100%;
 }
 
 #left{
@@ -57,8 +59,8 @@ span {
 
 }
 #left::before{
-	padding-left: 10px;
-	content: "⇦";
+	padding-left: 0px;
+	content: '\21e6';
 	font-size: 30px;
     font-weight: bold;
 }
@@ -69,32 +71,32 @@ span {
 	background-color: darkgray;
 }
 #right::before{
-	padding-left: 10px;
-	content: "⇨";
+	padding-left: 0px;
+	content: "\21e8";
 	font-size: 30px;
     font-weight: bold;
 }
 #up{
 	width: 50px;
 	height: 50px;
-	display: inline-block;
+	display: block;
 	background-color: darkgray;
 }
 #up::before{
-	padding-left: 10px;
-	content: "⇧";
+	padding-left: 0px;
+	content: "\21e7";
 	font-size: 30px;
     font-weight: bold;
 }
 #down{
 	width: 50px;
 	height: 50px;	
-	display: inline-block;
+	display: block;
 	background-color: darkgray;
 }
 #down::before{
-	padding-left: 10px;
-	content: "⇩";
+	padding-left: 0px;
+	content: "\21e9";
 	font-size: 30px;
     font-weight: bold;
 }
