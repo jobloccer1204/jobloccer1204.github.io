@@ -65,7 +65,7 @@ width: 100%;
     font-weight: bold;
 }
 #right{
-	width: 20vw;
+	width: 30vw;
 	height: 6vh;
 	display: inline-block;
 	background-color: darkgray;
@@ -77,7 +77,7 @@ width: 100%;
     font-weight: bold;
 }
 #up{
-	width: 20vw;
+	width: 30vw;
 	height: 6vh;
 	display: block;
 	background-color: darkgray;
@@ -89,7 +89,7 @@ width: 100%;
     font-weight: bold;
 }
 #down{
-	width: 20vw;
+	width: 30vw;
 	height: 6vh;
 	display: block;
 	background-color: darkgray;

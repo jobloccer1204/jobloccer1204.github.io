@@ -9,7 +9,7 @@ $(document).ready(function() {
 	var snake;
 	var d = "RIGHT";
 
-	var gameloop = setInterval(update, 50);
+	var gameloop = setInterval(update, 70);
 
 	function update() {
 		if (d == "RIGHT")
